@@ -1,0 +1,2 @@
+# Omit configuration file with private tokens
+./issuebot/config.json

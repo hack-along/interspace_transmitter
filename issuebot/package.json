@@ -1,0 +1,32 @@
+{
+  "name": "issuebot",
+  "version": "0.1.0",
+  "description": "",
+  "main": "built/issuebot.js",
+  "scripts": {
+    "watch": "tsc -p . -w",
+    "start": "tsc -p . && node built/issuebot.js",
+    "build": "tsc -p .",
+    "start-nobuild": "node built/issuebot.js",
+    "test": "echo \"No tests specified\"",
+    "postinstall": "npm link ../harmony"
+  },
+  "keywords": [],
+  "author": "LeagueSandbox https://github.com/LeagueSandbox",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LeagueSandbox/IssueBot.git"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.53",
+    "typescript": "^2.1.4",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "github": "^7.1.0",
+    "node-opus": "^0.2.4",
+    "opusscript": "0.0.1",
+    "typescript": "^2.1.4"
+  }
+}
